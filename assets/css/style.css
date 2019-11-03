@@ -58,3 +58,15 @@ body{
     background-image: url("../images/herringbone.png");
     background-color: #d6d6d6;
 }
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 55%;
+    left: 20px;
+    width: 200px;
+    background-color: #4aaaa5;
+}
