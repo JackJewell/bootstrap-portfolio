@@ -9,39 +9,40 @@
     <title>Jack Jewell's Portfolio</title>
 </head>
 <body>
-<div class = "row">
-    <header>
-        <span class="border-bottom"> 
-            <div class = "col-12 col-md-3 float-left text-center">
+<div class = "col-12" id = "mainCont">
+    <div class = "row align-items-center" id = "headRow">
+        <span class="border-bottom head"> 
+            <div class = "col-12 float-left text-center" id = "nameHead">
                 <h1>Jack Jewell</h1>
             </div>
+        </span>
+    </div>
 
-            <div class = "col-4 col-md-3 float-right">
+    <div class = "row">
+        <span class="border-bottom head"> 
+            <div class = "col-4 float-right navBarBtn">
                 <a href="../bootstrap-portfolio/contact.html" class="nav-link m-2 menu-item">Contact</a>
             </div>
             
-            <div class = "col-4 col-md-3 float-right">
+            <div class = "col-4 float-right navBarBtn">
                 <a href="../bootstrap-portfolio/portfolio.html" class="nav-link m-2 menu-item">Portfolio</a>
             </div>
                 
-            <div class = "col-4 col-md-3 float-right">
+            <div class = "col-4 float-right navBarBtn">
                 <a href="../bootstrap-portfolio/index.html" class="nav-link m-2 menu-item">About</a>
             </div>
         </span>
-    </header>
-</div>
+    </div>
 
-    <div class = "container">
-        <div class = "content"></div>
+        <div class = "container content" id = "cardCont">
             <div class = "row" style = "margin: 20px">
                 <span class="border"> 
-                    <div class = "col-8">
-                        
+                    <div class = "col-12" id = "mainCard">
                         <h2>
                             About me
                         </h2>
                         <hr>
-                        <img src="assets/images/headshot (2).jpg" class = "float-left" style= "width: 60%" alt="A Picture of Me">
+                        <img src="assets/images/headshot (2).jpg" class = "float-left" id = "headShot" alt="A Picture of Me">
                         <p>
                                 Hello there! My name is Jackson Jewell, and this is my portfolio. I was born on August 21st 1998, 
                                 and am currently working as an Engineering Technician at Hankook Tire in Clarksville Tennessee. Professionally
@@ -57,19 +58,26 @@
                             <p>
                                 I'll likely update this site with lots of cool stuff over the next few months, so be sure to check back in soon!
                             </p>
-                        
+                    </div>
+                    <div class = "col-12">
+                        <button class = "btn subBtn float-left"><a href = "https://github.com/JackJewell" style = "color: #ffffff;">Github Profile</a></button>
+                    </div>
+                    <div class = "col-12">
+                        <button class = "btn subBtn float-left"><a href = "https://www.linkedin.com/in/jack-jewell-048006141/" style = "color: #ffffff;">LinkedIn Profile</a></button>
+                    </div>
+                    <div class = "col-12">
+                        <button class = "btn subBtn float-left"><a href = "https://drive.google.com/file/d/1W4w7GpPvYjZ5297sUuGGhyFHFLCrht7P/view?usp=sharing" style = "color: #ffffff;">Resume</a></button>
                     </div>
                 </span>
             </div>
         </div>
-    </div>
 
-    <div class = "foot">
-        <footer class="page-footer font-small pt-4">
+        
+        <div class = "foot">
             <div class="footer-copyright text-center py-3">
                 All rights reserved © 2019 Jackson Jewell
-            </div> 
-        </footer>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
